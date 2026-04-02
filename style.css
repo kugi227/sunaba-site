@@ -357,3 +357,16 @@ button:hover{
 .contact{
   animation-delay: 0.8s;
 }
+/* 画像をオシャレに */
+img{
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+/* ホバーで動く */
+img:hover{
+  transform: scale(1.05);
+}
+img{
+  filter: brightness(0.95) contrast(1.05);
+}
