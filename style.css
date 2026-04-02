@@ -304,3 +304,6 @@ body{
     align-items: center;
   }
 }
+.menu-item{
+  writing-mode: horizontal-tb;
+}
