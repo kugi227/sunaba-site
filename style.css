@@ -305,3 +305,6 @@ section {
 .menu-item{
   writing-mode: horizontal-tb;
 }
+body{
+  background:#f7f3ef;
+}
