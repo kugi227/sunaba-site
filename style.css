@@ -1,0 +1,284 @@
+body{
+  margin:0;
+  font-family:"Hiragino Mincho ProN", serif;
+  background:#f6f6f6;
+}
+
+/* ヘッダー */
+.header{
+  background:white;
+  text-align:center;
+  padding:50px 20px;
+}
+
+.header h1{
+  font-size:42px;
+  margin:0;
+}
+
+.header p{
+  margin-top:10px;
+  color:#777;
+}
+
+/* メイン画像 */
+.main img{
+  width:100%;
+  height:auto;
+  display:block;
+}
+
+/* お店紹介 */
+.about{
+  text-align:center;
+  padding:60px 20px;
+  background:white;
+}
+
+.about h2{
+  font-size:28px;
+}
+
+.about p{
+  max-width:600px;
+  margin:20px auto;
+  line-height:1.8;
+}
+
+/* メニュー */
+.menu{
+  padding:60px 20px;
+  text-align:center;
+}
+
+.menu h2{
+  font-size:28px;
+}
+
+/* メニュー3つ横並び */
+.menu-list{
+  display:flex;
+  justify-content:center;
+  gap:30px;
+  margin-top:30px;
+}
+
+.menu-item{
+  width:250px;
+  background:white;
+  padding:15px;
+}
+
+.menu-item img{
+  width:100%;
+}
+
+/* フッター */
+.footer{
+  background:#222;
+  color:white;
+  text-align:center;
+  padding:20px;
+}
+
+/* アクセス */
+.access{
+  background:white;
+  padding:60px 20px;
+  text-align:center;
+}
+
+.access h2{
+  font-size:28px;
+}
+
+.access-box{
+  max-width:900px;
+  margin:30px auto;
+  display:flex;
+  gap:30px;
+}
+
+.access-text{
+  width:40%;
+  text-align:left;
+}
+
+.access-map{
+  width:60%;
+}
+/* お問い合わせフォーム */
+.contact{
+  background:#f6f6f6;
+  padding:60px 20px;
+  text-align:center;
+}
+
+.contact h2{
+  font-size:28px;
+}
+
+form{
+  max-width:500px;
+  margin:30px auto;
+  background:white;
+  padding:30px;
+}
+
+.form-item{
+  margin-bottom:20px;
+  text-align:left;
+}
+
+label{
+  display:block;
+  margin-bottom:5px;
+}
+
+input, textarea{
+  width:100%;
+  padding:10px;
+  border:1px solid #ccc;
+}
+
+button{
+  background:#333;
+  color:white;
+  border:none;
+  padding:12px 30px;
+  cursor:pointer;
+}
+.about p:last-child{
+  font-weight:bold;
+  font-size:18px;
+}
+.price{
+  font-weight:bold;
+  margin-top:10px;
+  font-size:18px;
+}
+.price{
+  font-weight:bold;
+  margin-top:10px;
+  font-size:18px;
+}
+.menu-item p{
+  line-height:1.8;
+}
+
+.price{
+  font-weight:bold;
+  margin-top:10px;
+  font-size:18px;
+}
+/* メニューカードをオシャレにする */
+
+.menu-item{
+  width:250px;
+  background:white;
+  padding:15px;
+  border-radius:10px;
+  box-shadow:0 4px 12px rgba(0,0,0,0.1);
+  transition:0.3s;
+}
+
+/* マウスを乗せたとき */
+.menu-item:hover{
+  transform:translateY(-5px);
+  box-shadow:0 8px 18px rgba(0,0,0,0.15);
+}
+
+/* 写真 */
+.menu-item img{
+  width:100%;
+  border-radius:8px;
+}
+
+/* タイトル */
+.menu-item h3{
+  margin-top:10px;
+  font-size:18px;
+}
+
+/* 説明文 */
+.menu-item p{
+  line-height:1.8;
+  font-size:14px;
+}
+
+/* 値段 */
+.price{
+  font-weight:bold;
+  margin-top:10px;
+  font-size:18px;
+}
+.menu-item{
+  border:1px solid #eee;
+}
+body {
+  background-color: #F4F1DE; /* 優しいセピア系ベージュ */
+  color: #3D405B;           /* 落ち着いた紺色の文字 */
+  font-family: "Yu Mincho", "Hiragino Mincho Pro", serif; /* レトロ感のあるフォント */
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #81B29A; /* 柔らかいグリーン系 */
+  color: #F4F1DE;
+  padding: 20px;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  color: #E07A5F; /* くすみオレンジの見出し */
+  margin-top: 0;
+}
+
+a {
+  color: #3D405B; 
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #E07A5F; /* ホバーで見出しと同じアクセント */
+}
+
+button {
+  background-color: #E07A5F; /* ボタンもくすみオレンジ */
+  color: #F4F1DE;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #3D405B; /* ホバーで紺色に変化 */
+}
+
+section {
+  padding: 40px 20px;
+}
+
+.card {
+  background-color: #F2CC8F; /* 優しい黄色系カード */
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+.about-img{
+  width:100%;
+  max-width:600px;
+  margin:20px auto;
+  display:block;
+  border-radius:10px;
+}
+.about-img{
+  box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
