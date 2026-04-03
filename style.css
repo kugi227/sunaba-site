@@ -370,3 +370,13 @@ img:hover{
 img{
   filter: brightness(0.95) contrast(1.05);
 }
+.menu {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.menu p {
+  line-height: 1.8;
+  letter-spacing: 0.05em;
+  word-break: keep-all;
+}
