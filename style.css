@@ -246,3 +246,98 @@ button:hover {
     width: 100%;
   }
 }
+/* =======================
+   スマホ完全最適化
+======================= */
+@media (max-width: 768px){
+
+  /* 全体の余白調整 */
+  body{
+    font-size: 15px;
+  }
+
+  section{
+    padding: 40px 15px;
+  }
+
+  /* 見出し */
+  h2{
+    font-size: 22px;
+  }
+
+  /* =======================
+     ABOUT（文章崩れ対策）
+  ======================= */
+  .about{
+    text-align: center;
+  }
+
+  .about p{
+    text-align: left;
+    max-width: 95%;
+    margin: 20px auto;
+    line-height: 1.9;
+    word-break: keep-all;
+    line-break: strict;
+  }
+
+  /* =======================
+     メニュー
+  ======================= */
+  .menu{
+    max-width: 100%;
+  }
+
+  .menu-list{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .menu-item{
+    width: 90%;
+    max-width: 320px;
+    padding: 15px;
+  }
+
+  .menu-item h3{
+    font-size: 16px;
+  }
+
+  .menu-item p{
+    font-size: 14px;
+  }
+
+  .price{
+    font-size: 16px;
+  }
+
+  /* =======================
+     アクセス
+  ======================= */
+  .access-box{
+    flex-direction: column;
+  }
+
+  .access-text,
+  .access-map{
+    width: 100%;
+  }
+
+  /* =======================
+     フォーム
+  ======================= */
+  form{
+    width: 90%;
+    padding: 20px;
+  }
+
+  input, textarea{
+    font-size: 16px; /* ズーム防止 */
+  }
+
+  button{
+    width: 100%;
+    padding: 14px;
+  }
+}
